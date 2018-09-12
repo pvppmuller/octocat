@@ -1,0 +1,25 @@
+1- Create public repository: octocat
+
+2- Link: https://github.com/parumos/octocat.git
+
+3.1- Help - create a new repository on the command line
+echo "# octocat" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/parumos/octocat.git
+git push -u origin master
+
+3.2 - Help - push an existing repository from the command line
+git remote add origin https://github.com/parumos/octocat.git
+git push -u origin master
+
+3.3 - Help - import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+-- octocat demo commands - start from empty repository
+ * read and write octocat_demo_commands.txt
+
+-- user config
+git config user.name parumos
+git config user.email "paulo.araujo@rumos.pt"
